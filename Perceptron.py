@@ -10,6 +10,7 @@ f : 활성화 함수
 """
 class Perceptron :
     def __init__(self, input_size) :
+        # input_size : 입력 데이터의 크기
         self.weights = [0.0] * input_size # 가중치 초기화
         self.bias = 0.0 # 편향 초기화
 
